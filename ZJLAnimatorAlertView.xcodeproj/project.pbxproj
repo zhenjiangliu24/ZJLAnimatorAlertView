@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFCB3D31D0F875D00271B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB3D21D0F875D00271B93 /* main.m */; };
+		CAFCB3D61D0F875D00271B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB3D51D0F875D00271B93 /* AppDelegate.m */; };
+		CAFCB3D91D0F875D00271B93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB3D81D0F875D00271B93 /* ViewController.m */; };
+		CAFCB3DC1D0F875D00271B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB3DA1D0F875D00271B93 /* Main.storyboard */; };
+		CAFCB3DE1D0F875D00271B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB3DD1D0F875D00271B93 /* Assets.xcassets */; };
+		CAFCB3E11D0F875D00271B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB3DF1D0F875D00271B93 /* LaunchScreen.storyboard */; };
+		CAFCB3EC1D0F875D00271B93 /* ZJLAnimatorAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB3EB1D0F875D00271B93 /* ZJLAnimatorAlertViewTests.m */; };
+		CAFCB3F71D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB3F61D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.m */; };
+		CAFCB4061D0F877A00271B93 /* ZJLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB4051D0F877A00271B93 /* ZJLAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFCB3E81D0F875D00271B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFCB3C61D0F875D00271B93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFCB3CD1D0F875D00271B93;
+			remoteInfo = ZJLAnimatorAlertView;
+		};
+		CAFCB3F31D0F875D00271B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFCB3C61D0F875D00271B93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFCB3CD1D0F875D00271B93;
+			remoteInfo = ZJLAnimatorAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFCB3CE1D0F875D00271B93 /* ZJLAnimatorAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLAnimatorAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCB3D21D0F875D00271B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFCB3D41D0F875D00271B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFCB3D51D0F875D00271B93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFCB3D71D0F875D00271B93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAFCB3D81D0F875D00271B93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAFCB3DB1D0F875D00271B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFCB3DD1D0F875D00271B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFCB3E01D0F875D00271B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFCB3E21D0F875D00271B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCB3E71D0F875D00271B93 /* ZJLAnimatorAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAnimatorAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCB3EB1D0F875D00271B93 /* ZJLAnimatorAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLAnimatorAlertViewTests.m; sourceTree = "<group>"; };
+		CAFCB3ED1D0F875D00271B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCB3F21D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAnimatorAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCB3F61D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLAnimatorAlertViewUITests.m; sourceTree = "<group>"; };
+		CAFCB3F81D0F875D00271B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCB4041D0F877A00271B93 /* ZJLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLAlertView.h; sourceTree = "<group>"; };
+		CAFCB4051D0F877A00271B93 /* ZJLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFCB3CB1D0F875D00271B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3E41D0F875D00271B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3EF1D0F875D00271B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFCB3C51D0F875D00271B93 = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3D01D0F875D00271B93 /* ZJLAnimatorAlertView */,
+				CAFCB3EA1D0F875D00271B93 /* ZJLAnimatorAlertViewTests */,
+				CAFCB3F51D0F875D00271B93 /* ZJLAnimatorAlertViewUITests */,
+				CAFCB3CF1D0F875D00271B93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFCB3CF1D0F875D00271B93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3CE1D0F875D00271B93 /* ZJLAnimatorAlertView.app */,
+				CAFCB3E71D0F875D00271B93 /* ZJLAnimatorAlertViewTests.xctest */,
+				CAFCB3F21D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFCB3D01D0F875D00271B93 /* ZJLAnimatorAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3D41D0F875D00271B93 /* AppDelegate.h */,
+				CAFCB3D51D0F875D00271B93 /* AppDelegate.m */,
+				CAFCB3D71D0F875D00271B93 /* ViewController.h */,
+				CAFCB3D81D0F875D00271B93 /* ViewController.m */,
+				CAFCB3DA1D0F875D00271B93 /* Main.storyboard */,
+				CAFCB4041D0F877A00271B93 /* ZJLAlertView.h */,
+				CAFCB4051D0F877A00271B93 /* ZJLAlertView.m */,
+				CAFCB3DD1D0F875D00271B93 /* Assets.xcassets */,
+				CAFCB3DF1D0F875D00271B93 /* LaunchScreen.storyboard */,
+				CAFCB3E21D0F875D00271B93 /* Info.plist */,
+				CAFCB3D11D0F875D00271B93 /* Supporting Files */,
+			);
+			path = ZJLAnimatorAlertView;
+			sourceTree = "<group>";
+		};
+		CAFCB3D11D0F875D00271B93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3D21D0F875D00271B93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFCB3EA1D0F875D00271B93 /* ZJLAnimatorAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3EB1D0F875D00271B93 /* ZJLAnimatorAlertViewTests.m */,
+				CAFCB3ED1D0F875D00271B93 /* Info.plist */,
+			);
+			path = ZJLAnimatorAlertViewTests;
+			sourceTree = "<group>";
+		};
+		CAFCB3F51D0F875D00271B93 /* ZJLAnimatorAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCB3F61D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.m */,
+				CAFCB3F81D0F875D00271B93 /* Info.plist */,
+			);
+			path = ZJLAnimatorAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFCB3CD1D0F875D00271B93 /* ZJLAnimatorAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCB3FB1D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertView" */;
+			buildPhases = (
+				CAFCB3CA1D0F875D00271B93 /* Sources */,
+				CAFCB3CB1D0F875D00271B93 /* Frameworks */,
+				CAFCB3CC1D0F875D00271B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLAnimatorAlertView;
+			productName = ZJLAnimatorAlertView;
+			productReference = CAFCB3CE1D0F875D00271B93 /* ZJLAnimatorAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFCB3E61D0F875D00271B93 /* ZJLAnimatorAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCB3FE1D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertViewTests" */;
+			buildPhases = (
+				CAFCB3E31D0F875D00271B93 /* Sources */,
+				CAFCB3E41D0F875D00271B93 /* Frameworks */,
+				CAFCB3E51D0F875D00271B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFCB3E91D0F875D00271B93 /* PBXTargetDependency */,
+			);
+			name = ZJLAnimatorAlertViewTests;
+			productName = ZJLAnimatorAlertViewTests;
+			productReference = CAFCB3E71D0F875D00271B93 /* ZJLAnimatorAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFCB3F11D0F875D00271B93 /* ZJLAnimatorAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCB4011D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertViewUITests" */;
+			buildPhases = (
+				CAFCB3EE1D0F875D00271B93 /* Sources */,
+				CAFCB3EF1D0F875D00271B93 /* Frameworks */,
+				CAFCB3F01D0F875D00271B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFCB3F41D0F875D00271B93 /* PBXTargetDependency */,
+			);
+			name = ZJLAnimatorAlertViewUITests;
+			productName = ZJLAnimatorAlertViewUITests;
+			productReference = CAFCB3F21D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFCB3C61D0F875D00271B93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CAFCB3CD1D0F875D00271B93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CAFCB3E61D0F875D00271B93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFCB3CD1D0F875D00271B93;
+					};
+					CAFCB3F11D0F875D00271B93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFCB3CD1D0F875D00271B93;
+					};
+				};
+			};
+			buildConfigurationList = CAFCB3C91D0F875D00271B93 /* Build configuration list for PBXProject "ZJLAnimatorAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFCB3C51D0F875D00271B93;
+			productRefGroup = CAFCB3CF1D0F875D00271B93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFCB3CD1D0F875D00271B93 /* ZJLAnimatorAlertView */,
+				CAFCB3E61D0F875D00271B93 /* ZJLAnimatorAlertViewTests */,
+				CAFCB3F11D0F875D00271B93 /* ZJLAnimatorAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFCB3CC1D0F875D00271B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCB3E11D0F875D00271B93 /* LaunchScreen.storyboard in Resources */,
+				CAFCB3DE1D0F875D00271B93 /* Assets.xcassets in Resources */,
+				CAFCB3DC1D0F875D00271B93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3E51D0F875D00271B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3F01D0F875D00271B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFCB3CA1D0F875D00271B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCB4061D0F877A00271B93 /* ZJLAlertView.m in Sources */,
+				CAFCB3D91D0F875D00271B93 /* ViewController.m in Sources */,
+				CAFCB3D61D0F875D00271B93 /* AppDelegate.m in Sources */,
+				CAFCB3D31D0F875D00271B93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3E31D0F875D00271B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCB3EC1D0F875D00271B93 /* ZJLAnimatorAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCB3EE1D0F875D00271B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCB3F71D0F875D00271B93 /* ZJLAnimatorAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFCB3E91D0F875D00271B93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFCB3CD1D0F875D00271B93 /* ZJLAnimatorAlertView */;
+			targetProxy = CAFCB3E81D0F875D00271B93 /* PBXContainerItemProxy */;
+		};
+		CAFCB3F41D0F875D00271B93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFCB3CD1D0F875D00271B93 /* ZJLAnimatorAlertView */;
+			targetProxy = CAFCB3F31D0F875D00271B93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFCB3DA1D0F875D00271B93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFCB3DB1D0F875D00271B93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFCB3DF1D0F875D00271B93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFCB3E01D0F875D00271B93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFCB3F91D0F875D00271B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFCB3FA1D0F875D00271B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFCB3FC1D0F875D00271B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAnimatorAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFCB3FD1D0F875D00271B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAnimatorAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFCB3FF1D0F875D00271B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAnimatorAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAnimatorAlertView.app/ZJLAnimatorAlertView";
+			};
+			name = Debug;
+		};
+		CAFCB4001D0F875D00271B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAnimatorAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAnimatorAlertView.app/ZJLAnimatorAlertView";
+			};
+			name = Release;
+		};
+		CAFCB4021D0F875D00271B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAnimatorAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAnimatorAlertView;
+			};
+			name = Debug;
+		};
+		CAFCB4031D0F875D00271B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAnimatorAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAnimatorAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAnimatorAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFCB3C91D0F875D00271B93 /* Build configuration list for PBXProject "ZJLAnimatorAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCB3F91D0F875D00271B93 /* Debug */,
+				CAFCB3FA1D0F875D00271B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFCB3FB1D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCB3FC1D0F875D00271B93 /* Debug */,
+				CAFCB3FD1D0F875D00271B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFCB3FE1D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCB3FF1D0F875D00271B93 /* Debug */,
+				CAFCB4001D0F875D00271B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFCB4011D0F875D00271B93 /* Build configuration list for PBXNativeTarget "ZJLAnimatorAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCB4021D0F875D00271B93 /* Debug */,
+				CAFCB4031D0F875D00271B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFCB3C61D0F875D00271B93 /* Project object */;
+}
